@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-void main(){
+int main(){
  float percent, tmark, mark1, mark2, mark3, mark4, mark5;
- clrscr();
  printf("enter the mark you have obtaine in  5 subjects : ");
  scanf("%d%d%d%d%d",&mark1,&mark2, &mark3, &mark4, &mark5);
  tmark = mark1+mark2+mark3+mark4+mark5;
@@ -15,5 +14,5 @@ else if(percent>=40)
 printf("second division");
 else
 printf("failed");
-getch();
+return 0;
 }
